@@ -62,3 +62,47 @@ nav ul {
 nav li {
     display: inline;
 }
+
+/* main */
+
+main {
+    width: 100%;
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* title lines */
+
+.titleLine {
+    background-color: #fff;
+    position: relative;
+    top: 65px;
+    flex: 0 1 855px;
+    height: 5px;
+}
+
+/* article - about me */
+
+#aboutMe {
+    background-color: #8170E8;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex: 0 1 815px;
+    flex-wrap: wrap;
+}
+
+#aboutMe h2 {
+    margin: 0 80% 30px 0;
+}
+
+#aboutMe p {
+    max-width: 400px;
+}
+
+#aboutMe img {
+    border-radius: 15px;
+    margin-left: 38px;
+}
