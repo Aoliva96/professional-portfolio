@@ -130,6 +130,34 @@ main {
     margin-bottom: 40px;
 }
 
+/* article - contact */
+
+#contact {
+    background-color: var(--lightColor);
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    flex: 0 1 815px;
+    flex-wrap: wrap;
+}
+
+#contact h2 {
+    margin: 0 80% 40px 0;
+}
+
+#contact ul {
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+#contact li {
+    display: inline-flex;
+}
+
 /* footer */
 
 footer {
