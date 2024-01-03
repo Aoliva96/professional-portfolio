@@ -91,7 +91,7 @@ main {
 
 /* article - about me */
 
-#aboutMe {
+#about {
     background-color: var(--lightColor);
     border-radius: 25px;
     padding: 20px;
@@ -101,22 +101,22 @@ main {
     flex-wrap: wrap;
 }
 
-#aboutMe h2 {
+#about h2 {
     margin: 0 80% 40px 0;
 }
 
-#aboutMe p {
+#about p {
     max-width: 400px;
 }
 
-#aboutMe img {
+#about img {
     border-radius: 15px;
     margin-left: 38px;
 }
 
 /* article - projects title */
 
-#projectsTitle {
+#projects {
     background-color: var(--lightColor);
     border-radius: 25px 25px 0 0;
     padding: 20px;
@@ -126,7 +126,7 @@ main {
     flex-wrap: wrap;
 }
 
-#projectsTitle h2 {
+#projects h2 {
     margin-bottom: 40px;
 }
 
