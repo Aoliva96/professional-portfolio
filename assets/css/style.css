@@ -69,6 +69,29 @@ nav li {
     display: inline;
 }
 
+.linkStyle:link {
+    text-decoration: none;
+}
+
+.linkStyle:visited {
+    text-decoration: none;
+}
+
+.linkStyle:hover {
+    text-decoration: underline;
+    color: #f9e5ba;
+}
+
+.linkStyle:active {
+    color: #f9e5ba;
+    font-size: 17px;
+}
+
+.linkStyle:focus {
+    border-radius: 10px;
+    border-width: thin;
+}
+
 /* main */
 
 main {
