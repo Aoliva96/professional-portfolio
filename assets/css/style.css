@@ -112,6 +112,7 @@ main {
 .contentWidth {
     width: var(--desktopWidth);
 }
+
 /* title lines */
 
 .titleLine {
@@ -130,21 +131,26 @@ main {
     padding: 20px;
     margin-bottom: 25px;
     display: flex;
-    flex: 0 1 815px;
     flex-wrap: wrap;
 }
 
-#about h2 {
-    margin: 0 80% 40px 0;
+.lineBreak {
+    width: 100%;
+    height: 40px;
 }
 
-#about p {
-    max-width: 400px;
+#aboutText {
+    width: 50%;
 }
 
-#about img {
+#aboutImg {
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#aboutImg > * {
     border-radius: 15px;
-    margin-left: 38px;
 }
 
 /* article - projects title */
@@ -155,12 +161,7 @@ main {
     padding: 20px;
     margin-bottom: 10px;
     display: flex;
-    flex: 0 1 815px;
     flex-wrap: wrap;
-}
-
-#projects h2 {
-    margin-bottom: 40px;
 }
 
 /* article - contact */
@@ -171,12 +172,7 @@ main {
     padding: 20px;
     margin-bottom: 25px;
     display: flex;
-    flex: 0 1 815px;
     flex-wrap: wrap;
-}
-
-#contact h2 {
-    margin: 0 80% 40px 0;
 }
 
 #contact ul {
